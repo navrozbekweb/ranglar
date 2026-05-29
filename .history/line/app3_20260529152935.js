@@ -32,5 +32,6 @@ function getRandomHex() {
 
     body.style.background = gradientColor;
 
+    // h1 ichida ikkala rangni ham ko'rsatamiz
     h1El.textContent = `${color1} + ${color2} + ${color3}`;
 }

@@ -30,7 +30,9 @@ function getRandomHex() {
 
     const gradientColor = `linear-gradient(45deg, ${color1}, ${color2}, ${color3})`;
 
+    // Body foniga gradientni joylashtiramiz (style.background ishlatiladi)
     body.style.background = gradientColor;
 
+    // h1 ichida ikkala rangni ham ko'rsatamiz
     h1El.textContent = `${color1} + ${color2} + ${color3}`;
 }

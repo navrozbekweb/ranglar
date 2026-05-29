@@ -28,9 +28,12 @@ function getRandomHex() {
     const color2 = `rgb(${r2}, ${g2}, ${b2})`;
     const color3 = `rgb(${r3}, ${g3}, ${b3})`;
 
+    // CSS linear-gradient formulasini tuzamiz (45 daraja burchak ostida)
     const gradientColor = `linear-gradient(45deg, ${color1}, ${color2}, ${color3})`;
 
+    // Body foniga gradientni joylashtiramiz (style.background ishlatiladi)
     body.style.background = gradientColor;
 
+    // h1 ichida ikkala rangni ham ko'rsatamiz
     h1El.textContent = `${color1} + ${color2} + ${color3}`;
 }
