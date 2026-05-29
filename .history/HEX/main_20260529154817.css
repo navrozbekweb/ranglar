@@ -9,13 +9,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    gap: 20px;
 }
 h1 {
     font-size: 30px;
     color: white;
+    margi
+    border-radius: 5px;
 }
